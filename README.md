@@ -17,9 +17,9 @@ Driver:
 + GET /drivers/driver/?created_at__gte=10-11-2021 - output the list of drivers created after 10-11-2021
 + GET /drivers/driver/?created_at__lte=16-11-2021 - output the list of drivers created before 16-11-2021
 
-+ GET /drivers/driver/<driver_id>/ - get information on a specific driver
++ GET /drivers/driver/<driver_id>/ - get detail of specific driver
 + POST /drivers/driver/ - create a new driver
-+ UPDATE /drivers/driver/<driver_id>/ - driver editing
++ UPDATE /drivers/driver/<driver_id>/ - edit the driver
 + DELETE /drivers/driver/<driver_id>/ - remove the driver
 
 Vehicle:
@@ -27,10 +27,10 @@ Vehicle:
 + GET /vehicles/vehicle/?with_drivers=yes - output the list of cars with drivers
 + GET /vehicles/vehicle/?with_drivers=no - output the list of cars without drivers
 
-+ GET /vehicles/vehicle/<vehicle_id>/ - get information on a specific machine
-+ POST /vehicles/vehicle/ - create a new machine
-+ UPDATE /vehicles/vehicle/<vehicle_id>/ - edit the machine
-+ POST /vehicles/set_driver/<vehicle_id>/ - put the driver in the car / get the driver out of the car
-+ DELETE /vehicles/vehicle/<vehicle_id>/ - delete the machine
++ GET /vehicles/vehicle/<vehicle_id>/ - get detail of specific vehicle
++ POST /vehicles/vehicle/ - create a new vehicle
++ UPDATE /vehicles/vehicle/<vehicle_id>/ - edit the vehicle
++ POST /vehicles/set_driver/<vehicle_id>/ - put the driver in the vehicle / get the driver out of the vehicle
++ DELETE /vehicles/vehicle/<vehicle_id>/ - delete the vehicle
 
 For running local and deployment: [SETUP.md](SETUP.md)
