@@ -1,11 +1,11 @@
 ### Running in local:
 
-`git clone https://github.com/dashgin/CarParkAPI && cd CarParkAPI`
-`python3 -m venv venv`
-`source venv/bin/activate`
-`pip install -r requirements.txt`
-`python manage.py migrate && python manage.py createsuperuser`
-`python3 manage.py runserver`
++ `git clone https://github.com/dashgin/CarParkAPI && cd CarParkAPI`
++ `python3 -m venv venv`
++ `source venv/bin/activate`
++ `pip install -r requirements.txt`
++ `python manage.py migrate && python manage.py createsuperuser`
++ `python3 manage.py runserver`
 > then visit [localhost:8000/admin/](http://localhost:8000/admin/)
 
 ### Deploying to Heroku:

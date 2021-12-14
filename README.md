@@ -6,6 +6,10 @@
 - Django 4.0
 - Django REST Framework 3.13.0
 - SQLite 3
+- isort
+- black
+- flake8
+
 
 ## Endpoints
 Driver:
