@@ -1,4 +1,4 @@
-# REST API for Car Parking
+# Car Parking REST API for test task
 
 ## Tools and Libraries
 
